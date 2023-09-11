@@ -1,0 +1,101 @@
+/* css */
+
+body{
+    background-color: #efefef;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: #e41e26;
+    padding: 10px;
+    margin: 0;
+    font-size: 30pt;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+.mainBody{
+    height: auto;
+    width: auto;
+
+}
+.topbar{
+
+}
+.menuBar{
+    background-color: #e41e26;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+.menuBar li{
+    float: left;
+    padding: 10px;
+   
+}
+.menuBar li a{
+    color: white;
+
+}
+.contentBody{
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+.contentBodyLeft{
+    float: left;
+    width: 60%;
+}
+.contentContainer{
+    padding: 20px;
+    border-right: 1px solid #e41e26;
+    position: relative;
+    overflow: hidden;
+}
+.logoContainer{
+    width: auto;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+.logoContainer img{
+    width: 150px;
+    padding: 5px;
+    border: 5px solid #cccccc;
+    border-radius: 5px;
+
+}
+.logoContainer h3{
+    font-size: 17pt;
+    padding: 10px 0;
+    margin: 0;
+}
+.contentBodyRight{
+    float: left;
+    width: 40;
+    position: relative;
+    overflow: hidden;
+
+}
+.contentBodyRightOne{
+    float: left;
+    width: 50%;
+    background-color: #ff00cc;
+}
+.contentBodyRightTwo{
+    float: left;
+    width: 50%;
+    background-color: #ff00ff;
+}
+.coppyrightBar{
+    border-top: 1px solid #e41e26;
+    border-bottom: 4px solid #e41e26;
+
+}
